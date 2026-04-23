@@ -5,11 +5,6 @@
             "maintainer" : "caninos-loucos",
             "websiteURL" : "https://caninosloucos.org",
             "email" : "ana.forcelli@lsitec.org.br",
-            "help" :  [    
-                    {
-                        "online" : "https://wiki.caninosloucos.org"
-                    }
-                ], 
             "platforms" : [
                 {
                     "name" : "puppy",
@@ -20,11 +15,6 @@
                     "archiveFilename" : "ArduinoCore-zephyr-puppy-0.0.0.tar.xz",
                     "checksum" : "sum",
                     "size" : "size",
-                    "help" : [
-                        {
-                            "online" : "https://wiki.caninosloucos.org"
-                        }
-                    ], 
                     "boards" : [
                         {
                             "name" : "Poodle Toy v1"
