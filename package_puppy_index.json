@@ -5,7 +5,7 @@
             "maintainer" : "caninos-loucos",
             "websiteURL" : "https://caninosloucos.org",
             "email" : "ana.forcelli@lsitec.org.br",
-            "help" : "",
+            "help" : "https://wiki.caninosloucos.org",
             "platforms" : [
                 {
                     "name" : "puppy",
@@ -18,7 +18,7 @@
                     "size" : "size",
                     "help" : [
                         {
-                            "online" : "https://wiki.caninosloucos.org/index.php/Poodle_Toy"
+                            "online" : "https://wiki.caninosloucos.org"
                         }
                     ], 
                     "boards" : [
