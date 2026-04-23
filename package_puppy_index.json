@@ -1,5 +1,5 @@
 {
-    "packages" : [ 
+    "packages" : [
         {
             "name" : "puppy",
             "maintainer" : "caninos-loucos",
@@ -11,7 +11,7 @@
                     "architecture" : "puppy",
                     "version" : "0.0.0",
                     "category" : "Contributed",
-                    "url" : "https://github.com/anacforcelli/zephyr-arduino-puppy/releases/0.0.0/zephyr_main-puppy-zephyr-arduino-0.0.0.tar.bz2",
+                    "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/zephyr_main-puppy-zephyr-arduino-0.0.0.tar.bz2",
                     "archiveFilename" : "zephyr_main-puppy-zephyr-arduino-0.0.0.tar.bz2",
                     "checksum" : "SHA-256:dbba8c6601fd408929b996c455958652d8db93904a0d8905c0d4d966526cea6f",
                     "size" : "15208973",
@@ -48,7 +48,7 @@
                 {
                     "name" : "riscv64-zephyr-elf",
                     "version" : "0.16.8",
-                    "systems" : [                        
+                    "systems" : [
                         {
                             "host": "aarch64-linux-gnu",
                             "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.8/toolchain_linux-aarch64_riscv64-zephyr-elf.tar.xz",
@@ -92,28 +92,28 @@
                     "systems" : [
                         {
                             "host" : "x86_64-linux-gnu",
-                            "url" : "https://github.com/Finomnis/mcumgr-toolkit/releases/download/0.12.1/mcumgrctl-linux",
-                            "archiveFileName" : "mcumgrctl-linux",
-                            "checksum" : "SHA-256:420f900ae80f97e8ab6f7dba8fbcfe9625fc029acc40dbee43657896b8a47142",
-                            "size" : 3818456
+                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/mcumgrctl-linux.tar.gz",
+                            "archiveFileName" : "mcumgrctl-linux.tar.gz",
+                            "checksum" : "SHA-256:9873830d65fb15f25fd8f47b74f971b730888db399be3ddcf48891f0f2ce79c9",
+                            "size" : 1608069
                         },
                         {
                             "host" : "x86_64-apple-darwin",
-                            "url": "https://github.com/Finomnis/mcumgr-toolkit/releases/download/0.12.1/mcumgrctl-macos",
-                            "archiveFileName" : "mcumgrctl-macos",
-                            "checksum" : "SHA-256:f844c4b7c07a9221734d9206b78bf25b5e18003d58a2263a6a7510e101d2d7dd",
-                            "size" : 3019472
+                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/mcumgrctl-macos.tar.gz",
+                            "archiveFileName" : "mcumgrctl-macos.tar.gz",
+                            "checksum" : "SHA-256:31ffd4edd23ac67743cce887bcd58d7611519b58f61d3abf8ff9ec8a773fe585",
+                            "size" : 1360544
                         },
                         {
                             "host" : "x86-64-mingw32",
-                            "url" : "https://github.com/Finomnis/mcumgr-toolkit/releases/download/0.12.1/mcumgrctl-windows.exe",
-                            "archiveFileName" : "mcumgrctl-windows.exe",
-                            "checksum" : "SHA-256:5554fb33d858d329ff249a053863931bfe111163fbb8d022741d7f3ab3583cad",
-                            "size" : 3870208
+                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/mcumgrctl-windows.tar.gz",
+                            "archiveFileName" : "mcumgrctl-windows.tar.gz",
+                            "checksum" : "SHA-256:532075bcf362f1bfbe6fd5d08dddc17b17d6fbaca625c3ec3521e8835928bbe1",
+                            "size" : 1534810
                         }
                     ]
                 }
-            ]    
+            ]
         }
     ]
 }
