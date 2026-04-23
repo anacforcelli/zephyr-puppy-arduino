@@ -11,7 +11,7 @@
                     "architecture" : "puppy",
                     "version" : "0.0.0",
                     "category" : "Contributed",
-                    "url" : "https://github.com/anacforcelli/zephyr-arduino-puppy/releases/0.0.0/zephyr_main-puppy-zephyr-arduino-0.0.0.tar.bz2",
+                    "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/zephyr_main-puppy-zephyr-arduino-0.0.0.tar.bz2",
                     "archiveFilename" : "zephyr_main-puppy-zephyr-arduino-0.0.0.tar.bz2",
                     "checksum" : "SHA-256:dbba8c6601fd408929b996c455958652d8db93904a0d8905c0d4d966526cea6f",
                     "size" : "15208973",
