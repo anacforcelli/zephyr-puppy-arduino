@@ -1,0 +1,125 @@
+{
+    "packages" : [ 
+        {
+            "name" : "puppy",
+            "maintainer" : "caninos-loucos",
+            "websiteURL" : "https://caninosloucos.org",
+            "email" : "ana.forcelli@lsitec.org.br",
+            "help" : "https://wiki.caninosloucos.org/index.php/Poodle_Toy",
+            "platforms" : [
+                {
+                    "name" : "puppy",
+                    "architecture" : "puppy",
+                    "version" : "0.0.0",
+                    "category" : "Contributed",
+                    "url" : "https://github.com/caninos-loucos/ArduinoCore-zephyr/releases/0.0.0/ArduinoCore-zephyr-puppy-0.0.0.tar.xz",
+                    "archiveFilename" : "ArduinoCore-zephyr-puppy-0.0.0.tar.xz",
+                    "checksum" : "sum",
+                    "size" : "size",
+                    "help" : [
+                        {
+                            "online" : "https://wiki.caninosloucos.org/index.php/Poodle_Toy"
+                        }
+                    ], 
+                    "boards" : [
+                        {
+                            "name" : "Poodle Toy v1"
+                        }
+                    ],
+                    "toolsDependencies" : [
+                        {
+                            "packager" : "puppy",
+                            "name" : "riscv64-zephyr-elf",
+                            "version" : "0.16.8"
+                        },
+                        {
+                            "packager" : "arduino",
+                            "name" : "imgtool",
+                            "version" : "1.8.0-arduino.2"
+                        },
+                        {
+                            "packager" : "arduino",
+                            "name" : "zephyr-sketch-tool",
+                            "version" : "0.2.0"
+                        },
+                        {
+                            "packager" : "puppy",
+                            "name" : "mcumgr-toolkit",
+                            "version" : "0.12.1"
+                        }
+                    ]
+                }
+            ],
+            "tools" : [
+                {
+                    "name" : "riscv64-zephyr-elf",
+                    "version" : "0.16.8",
+                    "systems" : [                        
+                        {
+                            "host": "aarch64-linux-gnu",
+                            "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.8/toolchain_linux-aarch64_riscv64-zephyr-elf.tar.xz",
+                            "archiveFileName": "toolchain_linux-aarch64_riscv64-zephyr-elf.tar.xz",
+                            "checksum": "SHA-256:6f6c218c50436e546b302647042d6f7c1fe83961930ef46795372b8be974525f",
+                            "size": 129579604
+                        },
+                        {
+                            "host": "arm64-apple-darwin",
+                            "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.8/toolchain_macos-aarch64_riscv64-zephyr-elf.tar.xz",
+                            "archiveFileName": "toolchain_macos-aarch64_riscv64-zephyr-elf.tar.xz",
+                            "checksum": "SHA-256:e0a0fc01b3b073dabe3a0172e0b6d17512354cb2e55e48f2dc9d0f59b495dabd",
+                            "size": 108009888
+                        },
+                        {
+                            "host": "x86-64-mingw32",
+                            "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.8/toolchain_windows-x86_64_riscv64-zephyr-elf.7z",
+                            "archiveFileName": "toolchain_windows-x86_64_riscv64-zephyr-elf.7z",
+                            "checksum": "SHA-256:f138260a49121ea3b6e30a8ce38a0941a0b1c0968d6a9224d69987d60936b74b",
+                            "size": 104223075
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.8/toolchain_macos-x86_64_x86_64-zephyr-elf.tar.xz",
+                            "archiveFileName": "toolchain_macos-x86_64_riscv64-zephyr-elf.tar.xz",
+                            "checksum": "SHA-256:44483b3412c67021145bb6c4e9099847b33d56d6deeb3e9c7bac79553d2d57f4",
+                            "size": 118632692
+                        },
+                        {
+                            "host": "x86_64-linux-gnu",
+                            "url": "https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.16.8/toolchain_linux-x86_64_riscv64-zephyr-elf.tar.xz",
+                            "archiveFileName": "toolchain_linux-x86_64_riscv64-zephyr-elf.tar.xz",
+                            "checksum": "SHA-256:de284cb58a7c4afb6a240aebf9a22eadad50999a12a83b5de29cba9822802690",
+                            "size": 131630848
+                        }
+                    ]
+                },
+                {
+                    "name" : "mcumgr-toolkit",
+                    "version" : "0.12.1",
+                    "systems" : [
+                        {
+                            "host" : "x86_64-linux-gnu",
+                            "url" : "https://github.com/Finomnis/mcumgr-toolkit/releases/download/0.12.1/mcumgrctl-linux",
+                            "archiveFileName" : "mcumgrctl-linux",
+                            "checksum" : "SHA-256:420f900ae80f97e8ab6f7dba8fbcfe9625fc029acc40dbee43657896b8a47142",
+                            "size" : 3818456
+                        },
+                        {
+                            "host" : "x86_64-apple-darwin",
+                            "url": "https://github.com/Finomnis/mcumgr-toolkit/releases/download/0.12.1/mcumgrctl-macos",
+                            "archiveFileName" : "mcumgrctl-macos",
+                            "checksum" : "SHA-256:f844c4b7c07a9221734d9206b78bf25b5e18003d58a2263a6a7510e101d2d7dd",
+                            "size" : 3019472
+                        },
+                        {
+                            "host" : "x86-64-mingw32",
+                            "url" : "https://github.com/Finomnis/mcumgr-toolkit/releases/download/0.12.1/mcumgrctl-windows.exe",
+                            "archiveFileName" : "mcumgrctl-windows.exe",
+                            "checksum" : "SHA-256:5554fb33d858d329ff249a053863931bfe111163fbb8d022741d7f3ab3583cad",
+                            "size" : 3870208
+                        }
+                    ]
+                }
+            ]    
+        }
+    ]
+}
