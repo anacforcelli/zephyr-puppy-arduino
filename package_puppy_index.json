@@ -5,7 +5,11 @@
             "maintainer" : "caninos-loucos",
             "websiteURL" : "https://caninosloucos.org",
             "email" : "ana.forcelli@lsitec.org.br",
-            "help" : "https://wiki.caninosloucos.org",
+            "help" :  [    
+                    {
+                        "online" : "https://wiki.caninosloucos.org"
+                    }
+                ], 
             "platforms" : [
                 {
                     "name" : "puppy",
