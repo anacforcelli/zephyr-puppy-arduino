@@ -1,20 +1,20 @@
 {
     "packages" : [
         {
-            "name" : "Puppy Boards",
-            "maintainer" : "Caninos Loucos - LSI-TEC",
+            "name" : "puppy",
+            "maintainer" : "Caninos Loucos",
             "websiteURL" : "https://caninosloucos.org",
             "email" : "ana.forcelli@lsitec.org.br",
             "platforms" : [
                 {
-                    "name" : "Puppy Boards",
+                    "name" : "puppy",
                     "architecture" : "puppy",
                     "version" : "0.0.0",
                     "category" : "Contributed",
                     "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/zephyr_puppy-puppy-zephyr-arduino-0.0.0.tar.gz",
                     "archiveFilename" : "zephyr_puppy-puppy-zephyr-arduino-0.0.0.tar.gz",
-                    "checksum" : "SHA-256:ee1b784d2ea2d9d9ceee69fd494e7fae664b987a28e7735b53f8f6181b1b908f",
-                    "size" : "3754369",
+                    "checksum" : "SHA-256:f8f5773532413e751e59de1b6f9b057d19966e71fc28c661c71ffaa540169c54",
+                    "size" : "3719355",
                     "boards" : [
                         {
                             "name" : "Poodle Toy v1"
@@ -40,6 +40,11 @@
                             "packager" : "puppy",
                             "name" : "mcumgr-toolkit",
                             "version" : "0.12.1"
+                        },
+                        {
+                            "packager" : "puppy",
+                            "name" : "joinfile",
+                            "version" : "0.0.0"
                         }
                     ]
                 }
@@ -92,24 +97,51 @@
                     "systems" : [
                         {
                             "host" : "x86_64-linux-gnu",
-                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/mcumgrctl-linux.tar.gz",
-                            "archiveFileName" : "mcumgrctl-linux.tar.gz",
-                            "checksum" : "SHA-256:9873830d65fb15f25fd8f47b74f971b730888db399be3ddcf48891f0f2ce79c9",
-                            "size" : 1608069
+                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/mcumgr-toolkit.tar.gz",
+                            "archiveFileName" : "mcumgr-toolkit.tar.gz",
+                            "checksum" : "SHA-256:c2cbc94042d336e27497c3773d189e71556d70b7bbd6d89decdc30377532ab67",
+                            "size" : 4503118
                         },
                         {
                             "host" : "x86_64-apple-darwin",
-                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/mcumgrctl-macos.tar.gz",
-                            "archiveFileName" : "mcumgrctl-macos.tar.gz",
-                            "checksum" : "SHA-256:31ffd4edd23ac67743cce887bcd58d7611519b58f61d3abf8ff9ec8a773fe585",
-                            "size" : 1360544
+                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/mcumgr-toolkit.tar.gz",
+                            "archiveFileName" : "mcumgr-toolkit.tar.gz",
+                            "checksum" : "SHA-256:c2cbc94042d336e27497c3773d189e71556d70b7bbd6d89decdc30377532ab67",
+                            "size" : 4503118
                         },
                         {
                             "host" : "x86-64-mingw32",
-                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/mcumgrctl-windows.tar.gz",
-                            "archiveFileName" : "mcumgrctl-windows.tar.gz",
-                            "checksum" : "SHA-256:532075bcf362f1bfbe6fd5d08dddc17b17d6fbaca625c3ec3521e8835928bbe1",
-                            "size" : 1534810
+                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/mcumgr-toolkit.tar.gz",
+                            "archiveFileName" : "mcumgr-toolkit.tar.gz",
+                            "checksum" : "SHA-256:c2cbc94042d336e27497c3773d189e71556d70b7bbd6d89decdc30377532ab67",
+                            "size" : 4503118
+                        }
+                    ]
+                },
+                {
+                    "name" : "joinfile",
+                    "version" : "0.0.0",
+                    "systems" : [
+                        {
+                            "host" : "x86_64-linux-gnu",
+                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/joinfile.tar.gz",
+                            "archiveFileName" : "joinfile.tar.gz",
+                            "checksum" : "SHA-256:447312ea91a0decf124c1f634fe196ea872b6a64e74be2947dbf73caccd41164",
+                            "size" : 654150
+                        },
+                        {
+                            "host" : "x86_64-apple-darwin",
+                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/joinfile.tar.gz",
+                            "archiveFileName" : "joinfile.tar.gz",
+                            "checksum" : "SHA-256:447312ea91a0decf124c1f634fe196ea872b6a64e74be2947dbf73caccd41164",
+                            "size" : 654150
+                        },
+                        {
+                            "host" : "x86-64-mingw32",
+                            "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/joinfile.tar.gz",
+                            "archiveFileName" : "joinfile.tar.gz",
+                            "checksum" : "SHA-256:447312ea91a0decf124c1f634fe196ea872b6a64e74be2947dbf73caccd41164",
+                            "size" : 654150
                         }
                     ]
                 }
