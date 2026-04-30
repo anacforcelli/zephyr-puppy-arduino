@@ -1,20 +1,20 @@
 {
     "packages" : [
         {
-            "name" : "puppy",
-            "maintainer" : "caninos-loucos",
+            "name" : "Puppy Boards",
+            "maintainer" : "Caninos Loucos - LSI-TEC",
             "websiteURL" : "https://caninosloucos.org",
             "email" : "ana.forcelli@lsitec.org.br",
             "platforms" : [
                 {
-                    "name" : "puppy",
+                    "name" : "Puppy Boards",
                     "architecture" : "puppy",
                     "version" : "0.0.0",
                     "category" : "Contributed",
                     "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/zephyr_puppy-puppy-zephyr-arduino-0.0.0.tar.gz",
                     "archiveFilename" : "zephyr_puppy-puppy-zephyr-arduino-0.0.0.tar.gz",
-                    "checksum" : "SHA-256:e740e7ea2a64e017cd4f52e049463defbd62b3e68918caa57b9cdbd852bf6734",
-                    "size" : "3753886",
+                    "checksum" : "SHA-256:ee1b784d2ea2d9d9ceee69fd494e7fae664b987a28e7735b53f8f6181b1b908f",
+                    "size" : "3754369",
                     "boards" : [
                         {
                             "name" : "Poodle Toy v1"
