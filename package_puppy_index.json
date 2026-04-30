@@ -11,10 +11,10 @@
                     "architecture" : "puppy",
                     "version" : "0.0.0",
                     "category" : "Contributed",
-                    "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/zephyr_main-puppy-zephyr-arduino-0.0.0.tar.bz2",
-                    "archiveFilename" : "zephyr_main-puppy-zephyr-arduino-0.0.0.tar.bz2",
-                    "checksum" : "SHA-256:056660ed63cc4dc07e909e3b72729465a855f5f4a18bf6afab2ad3928f3c6719",
-                    "size" : "15207658",
+                    "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.0/zephyr_puppy-puppy-zephyr-arduino-0.0.0.tar.gz",
+                    "archiveFilename" : "zephyr_main-puppy-zephyr-arduino-0.0.0.tar.gz",
+                    "checksum" : "SHA-256:e740e7ea2a64e017cd4f52e049463defbd62b3e68918caa57b9cdbd852bf6734",
+                    "size" : "3753886",
                     "boards" : [
                         {
                             "name" : "Poodle Toy v1"
