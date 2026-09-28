@@ -47,6 +47,49 @@
                             "version" : "0.0.0"
                         }
                     ]
+                },
+                {
+                    "name" : "puppy",
+                    "architecture" : "puppy",
+                    "version" : "0.0.1",
+                    "category" : "Contributed",
+                    "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.1/zephyr_puppy_0.0.1.tar.gz",
+                    "archiveFilename" : "zephyr_puppy_arduino-0.0.1.tar.gz",
+                    "checksum" : "SHA-256:c98d8fe771ca0c3d9e6a20b1051b4a5bae8323123f14ca631fd2263691eb7cd0",
+                    "size" : "7305306",
+                    "boards" : [
+                        {
+                            "name" : "Poodle Toy v1",
+                            "name" : "Poodle Toy v2"
+                        }
+                    ],
+                    "toolsDependencies" : [
+                        {
+                            "packager" : "puppy",
+                            "name" : "riscv64-zephyr-elf",
+                            "version" : "0.16.8"
+                        },
+                        {
+                            "packager" : "puppy",
+                            "name" : "imgtool",
+                            "version" : "2.4.0"
+                        },
+                        {
+                            "packager" : "arduino",
+                            "name" : "zephyr-sketch-tool",
+                            "version" : "0.2.0"
+                        },
+                        {
+                            "packager" : "puppy",
+                            "name" : "mcumgr-toolkit",
+                            "version" : "0.12.1"
+                        },
+                        {
+                            "packager" : "puppy",
+                            "name" : "joinfile",
+                            "version" : "0.0.0"
+                        }
+                    ]
                 }
             ],
             "tools" : [
