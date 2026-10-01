@@ -94,7 +94,7 @@
                 {
                     "name" : "puppy",
                     "architecture" : "puppy",
-                    "version" : "0.0.1",
+                    "version" : "0.0.2",
                     "category" : "Contributed",
                     "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.2/zephyr_puppy_0.0.2.tar.gz",
                     "archiveFilename" : "zephyr_puppy_arduino-0.0.2.tar.gz",
