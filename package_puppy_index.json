@@ -138,6 +138,8 @@
                     "name" : "Caninos Poodle Toy Boards",
                     "architecture" : "puppy",
                     "version": "0.0.3",
+                    "category" : "Contributed",
+                    "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.3/zephyr_puppy_0.0.3.tar.gz",
                     "archiveFileName": "zephyr_puppy_0.0.3.tar.gz",
                     "checksum": "SHA-256:da3c1ae128b5f25444f4de0358f94bceef6453a3e96946e01b63fc4a730ed5ed",
                     "size": "7373057",
