@@ -1,13 +1,13 @@
 {
     "packages" : [
         {
-            "name" : "puppy",
+            "name" : "Caninos Poodle Toy Boards",
             "maintainer" : "Caninos Loucos",
             "websiteURL" : "https://caninosloucos.org",
             "email" : "ana.forcelli@lsitec.org.br",
             "platforms" : [
                 {
-                    "name" : "puppy",
+                    "name" : "Caninos Poodle Toy Boards",
                     "architecture" : "puppy",
                     "version" : "0.0.0",
                     "category" : "Contributed",
@@ -49,7 +49,7 @@
                     ]
                 },
                 {
-                    "name" : "puppy",
+                    "name" : "Caninos Poodle Toy Boards",
                     "architecture" : "puppy",
                     "version" : "0.0.1",
                     "category" : "Contributed",
@@ -92,7 +92,7 @@
                     ]
                 },
                 {
-                    "name" : "puppy",
+                    "name" : "Caninos Poodle Toy Boards",
                     "architecture" : "puppy",
                     "version" : "0.0.2",
                     "category" : "Contributed",
@@ -131,9 +131,48 @@
                             "packager" : "puppy",
                             "name" : "joinfile",
                             "version" : "0.0.0"
+                        },
+                {
+                    "name" : "Caninos Poodle Toy Boards",
+                    "architecture" : "puppy",
+                    "version": "0.0.3",
+                    "archiveFileName": "zephyr_puppy_0.0.3.tar.gz",
+                    "checksum": "SHA-256:da3c1ae128b5f25444f4de0358f94bceef6453a3e96946e01b63fc4a730ed5ed",
+                    "size": "7373057",
+                    "boards" : [
+                        {
+                            "name" : "Poodle Toy v1",
+                            "name" : "Poodle Toy v2"
+                        }
+                    ],
+                    "toolsDependencies" : [
+                        {
+                            "packager" : "puppy",
+                            "name" : "riscv64-zephyr-elf",
+                            "version" : "0.16.8"
+                        },
+                        {
+                            "packager" : "puppy",
+                            "name" : "imgtool",
+                            "version" : "2.4.0"
+                        },
+                        {
+                            "packager" : "arduino",
+                            "name" : "zephyr-sketch-tool",
+                            "version" : "0.2.0"
+                        },
+                        {
+                            "packager" : "puppy",
+                            "name" : "mcumgr-toolkit",
+                            "version" : "0.12.1"
+                        },
+                        {
+                            "packager" : "puppy",
+                            "name" : "joinfile",
+                            "version" : "0.0.0"
                         }
                     ]
-                }
+                },
             ],
             "tools" : [
                 {
