@@ -395,22 +395,22 @@
                             "host" : "x86_64-linux-gnu",
                             "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.5/imgtool.tar.gz",
                             "archiveFileName" : "imgtool.tar.gz",
-                            "checksum" : "SHA-256:b97d090264912378e476a0849df82b9db62c251762d34aba93944fd6232b1bda",
-                            "size" : 22981688
+                            "checksum" : "SHA-256:864295169843f633c5a77e99546b69523727ad49b28d43781cafe573906e4937",
+                            "size" : 22981690
                         },
                         {
                             "host" : "x86_64-apple-darwin",
                             "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.5/imgtool.tar.gz",
                             "archiveFileName" : "imgtool.tar.gz",
-                            "checksum" : "SHA-256:b97d090264912378e476a0849df82b9db62c251762d34aba93944fd6232b1bda",
-                            "size" : 22981688
+                            "checksum" : "SHA-256:864295169843f633c5a77e99546b69523727ad49b28d43781cafe573906e4937",
+                            "size" : 22981690
                         },
                         {
                             "host" : "x86-64-mingw32",
                             "url" : "https://github.com/anacforcelli/zephyr-puppy-arduino/releases/download/0.0.5/imgtool.tar.gz",
                             "archiveFileName" : "imgtool.tar.gz",
-                            "checksum" : "SHA-256:b97d090264912378e476a0849df82b9db62c251762d34aba93944fd6232b1bda",
-                            "size" : 22981688
+                            "checksum" : "SHA-256:864295169843f633c5a77e99546b69523727ad49b28d43781cafe573906e4937",
+                            "size" : 22981690
                         }
                     ]
                 }
